@@ -1,0 +1,13 @@
+.navbar {
+  background: transparent;
+  height: 120px;
+}
+
+a {
+  &.nav-link {
+    font-weight: 700;
+    color: #ffffff !important;
+    text-shadow: 0 2px 16px rgba(21, 39, 61, 0.5);
+    margin-left: 30px;
+  }
+}

@@ -1,1 +1,16 @@
-/* You can add global styles to this file, and also import other style files */
+@import url("https://use.typekit.net/sjj4xzz.css");
+@import url('https://fonts.googleapis.com/css?family=Exo+2:300');
+@import "~aos/dist/aos.css";
+
+body, html {
+  height: 100%;
+  font-family: 'Prometo';
+  font-weight: 300;
+  color: #15273d;
+
+}
+
+p {
+  font-family: 'Exo 2';
+  font-weight: 300;
+}
