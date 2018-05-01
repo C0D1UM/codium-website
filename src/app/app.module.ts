@@ -9,13 +9,15 @@ import { AppRoutingModule } from './app-routing.module';
 import { MnFullpageModule } from 'ngx-fullpage';
 import { PortfolioModule } from './portfolio/portfolio.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { ContactComponent } from './contact/contact.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    HomepageComponent
+    HomepageComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
