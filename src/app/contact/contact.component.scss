@@ -44,7 +44,7 @@
     p, a {
       text-align: center;
       color: #ffffff;
-      font-size: 15px;
+      font-size: 20px;
     }
   }
 }
@@ -61,17 +61,10 @@
   }
 }
 
-a {
-  color: #15273d;
-  &:hover {
-    text-decoration: none;
-  }
-}
-
 .fas, .far {
   margin-right: 10px;
 }
 
 .telephone {
-  margin-top: 20px;
+  margin-top: 30px;
 }
