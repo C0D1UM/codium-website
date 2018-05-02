@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
+import * as $ from 'jquery';
 
 @Component({
   selector: 'app-navbar',
@@ -14,7 +15,7 @@ export class NavbarComponent implements OnInit {
 
   ngOnInit() {
     this.router.events.subscribe(val => {
-      console.log(val);
+      $('#navbarSupportedContent').removeClass('collapsed').removeClass('show');
     });
   }
 
