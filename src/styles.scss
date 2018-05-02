@@ -14,3 +14,15 @@ p {
   font-family: 'Exo 2';
   font-weight: 300;
 }
+
+a {
+  color: #15273d;
+  &:hover {
+    text-decoration: none !important;
+    color: #15273d;
+  }
+}
+
+ul {
+  list-style-type: none;
+}

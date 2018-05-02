@@ -44,7 +44,7 @@
     p {
       text-align: center;
       color: #ffffff;
-      font-size: 15px;
+      font-size: 20px;
     }
   }
 }
@@ -56,6 +56,12 @@
     left: -45%;
     top: -25%;
   }
+  //@media (min-width: 992px) and (max-width: 1439px) {
+  //  height: 200%;
+  //  position: absolute;
+  //  left: -80%;
+  //  top: -25%;
+  //}
   @media (max-width: 991px) {
     display: none;
   }
