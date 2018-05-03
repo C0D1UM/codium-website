@@ -9,9 +9,7 @@
   height: 70%;
   //overflow: hidden;
   position: relative;
-<<<<<<< Updated upstream
-=======
-  z-index: -5;
+  z-index: - 5;
 }
 
 .img-responsive {
@@ -66,8 +64,6 @@ h5 {
 }
 
 .stat {
-  //text-align: left;
-  //background: #15273d;
   height: 100%;
   z-index: -4;
   margin-top: -50px;
@@ -91,7 +87,6 @@ h5 {
   @media (max-width: 991px) {
     display: none;
   }
->>>>>>> Stashed changes
 }
 
 .map-thailand {
