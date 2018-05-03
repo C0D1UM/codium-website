@@ -9,4 +9,90 @@
   height: 70%;
   //overflow: hidden;
   position: relative;
+  z-index: - 5;
+}
+
+.img-responsive {
+  @media (min-width: 992px) {
+    height: 145%;
+    width: 60%;
+    position: absolute;
+    top: 50%;
+    z-index: 2;
+  }
+  @media (max-width: 991px) {
+    display: none;
+  }
+}
+
+.brand {
+  margin-top: 20px;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 56px;
+  letter-spacing: 1.8px;
+  height: 72px;
+}
+
+h5 {
+  font-weight: 700;
+}
+
+.slogan {
+  font-size: 22px;
+  color: rgba(79, 93, 109, 0.52);
+  font-weight: 500;
+}
+
+.m-t-15 {
+  margin-top: 15px;
+}
+
+.detail {
+  margin-top: 40px;
+}
+
+.polygon-data {
+  margin-top: -170px;
+  @media (max-width: 991px) {
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 10px;
+  }
+}
+
+.stat {
+  height: 100%;
+  z-index: -4;
+  margin-top: -50px;
+  p, h5 {
+    color: #ffffff;
+  }
+  h1 {
+    color: #00bbee;
+  }
+}
+
+.img-responsive-right {
+  @media (min-width: 992px) {
+    height: 140%;
+    width: 69.5%;
+    position: absolute;
+    top: 60%;
+    right: 0;
+    z-index: -6;
+  }
+  @media (max-width: 991px) {
+    display: none;
+  }
+}
+
+.map-thailand {
+  width: 65%;
+  position: absolute;
+  bottom: -100%;
+  left: 0;
+  z-index: -7;
 }
