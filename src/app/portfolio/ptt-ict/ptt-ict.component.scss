@@ -1,12 +1,88 @@
 .container {
-  padding-top: 100px;
+  //margin-top: -120px;
+  height: 100%;
 }
 
 .ptt-bg {
   background: url("../../../assets/images/ptt_bg.png");
   background-size: cover;
-  background-position: right;
-  height: 70%;
-  //overflow: hidden;
+  background-position: center;
+  height: 80%;
   position: relative;
+  z-index: -5;
+}
+
+.img-responsive {
+  @media (min-width: 992px) {
+    height: 140%;
+    position: absolute;
+    //left: -45%;
+    top: 50%;
+    z-index: 2;
+  }
+  @media (max-width: 991px) {
+    display: none;
+  }
+}
+
+.brand {
+  margin-top: 20px;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 56px;
+  letter-spacing: 1.8px;
+  height: 72px;
+}
+
+h5 {
+  font-weight: 700;
+}
+
+.slogan {
+  font-size: 22px;
+  color: rgba(79, 93, 109, 0.52);
+  font-weight: 500;
+}
+
+.m-t-15 {
+  margin-top: 15px;
+}
+
+.detail {
+  margin-top: 40px;
+}
+
+.polygon-data {
+  margin-top: -170px;
+  @media (max-width: 991px) {
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 10px;
+  }
+}
+
+.stat {
+  //text-align: left;
+  //background: #15273d;
+  height: 100%;
+  z-index: -4;
+  p {
+    //color: #ffffff;
+  }
+}
+
+.img-responsive-right {
+  @media (min-width: 992px) {
+    height: 140%;
+    position: absolute;
+    //left: -45%;
+    top: 85%;
+    right: 0;
+    z-index: -6;
+  }
+  @media (max-width: 991px) {
+    display: none;
+  }
 }
