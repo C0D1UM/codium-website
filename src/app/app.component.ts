@@ -10,9 +10,11 @@ import * as AOS from 'aos';
 export class AppComponent implements OnInit {
 
   ngOnInit() {
+    $(window).on('beforeunload', () => {
+      $(window).scrollTop(0);
+    });
     $(document).ready(() => {
       AOS.init();
     });
   }
-
 }

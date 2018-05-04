@@ -14,11 +14,11 @@
 
 .img-responsive {
   @media (min-width: 992px) {
-    height: 145%;
+    height: 120%;
     width: 60%;
     position: absolute;
-    top: 50%;
-    z-index: 2;
+    top: 35%;
+    z-index: 0;
   }
   @media (max-width: 991px) {
     display: none;
@@ -55,11 +55,19 @@ h5 {
 }
 
 .polygon-data {
-  margin-top: -170px;
+  margin-top: -200px;
+  @media (min-width: 992px) {
+    max-width: 420px;
+  }
   @media (max-width: 991px) {
     background: #ffffff;
     padding: 15px;
     border-radius: 10px;
+    text-align: center;
+    img {
+      text-align: center;
+      margin: auto;
+    }
   }
 }
 
@@ -72,6 +80,13 @@ h5 {
   }
   h1 {
     color: #00bbee;
+  }
+  @media (max-width: 991px) {
+    padding: 15px;
+    p, h5, h1 {
+      color: #15273d;
+      text-align: center;
+    }
   }
 }
 
@@ -90,9 +105,20 @@ h5 {
 }
 
 .map-thailand {
-  width: 65%;
+  height: 55%;
+  width: auto;
   position: absolute;
   bottom: -100%;
   left: 0;
   z-index: -7;
+  @media (max-width: 991px) {
+    display: none;
+    left: -10%;
+  }
+}
+
+.icon {
+  @media (max-width: 991px) {
+    text-align: center;
+  }
 }
