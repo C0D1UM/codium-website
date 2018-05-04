@@ -1,6 +1,13 @@
 nav {
   background: transparent;
   padding-top: 40px; // height: 120px;
+  .scrolled {
+    background: #15273d;
+  }
+}
+
+#logoWhite {
+  display: none;
 }
 
 a {
@@ -41,6 +48,10 @@ a {
   color: #ffffff;
 }
 
+.navbar {
+  transition: 300ms all;
+}
+
 .navbar-toggler {
   border: none;
   &:focus {
@@ -63,4 +74,14 @@ button {
       outline: none !important;
     }
   }
+}
+
+.solid-bg {
+  background: #15273d;
+  transition: 1000ms all;
+}
+
+.transparent-bg {
+  background: transparent;
+  transition: 300ms all;
 }
