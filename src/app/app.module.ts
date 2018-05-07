@@ -10,6 +10,7 @@ import { MnFullpageModule } from 'ngx-fullpage';
 import { PortfolioModule } from './portfolio/portfolio.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ContactComponent } from './contact/contact.component';
+import { PeopleModule } from './people/people.module';
 
 
 @NgModule({
@@ -24,6 +25,7 @@ import { ContactComponent } from './contact/contact.component';
     RouterModule,
     AppRoutingModule,
     PortfolioModule,
+    PeopleModule,
     BrowserAnimationsModule,
     MnFullpageModule.forRoot()
   ],

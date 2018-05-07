@@ -4,6 +4,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { HomepageComponent } from './homepage/homepage.component';
 import { portfolioRoutes } from './portfolio/portfolio-routing.module';
 import { ContactComponent } from './contact/contact.component';
+import { peopleRoutes } from './people/people-routing.module';
 
 const routes: Routes = [
   {
@@ -14,6 +15,12 @@ const routes: Routes = [
     path: 'portfolio',
     children: [
       ...portfolioRoutes
+    ]
+  },
+  {
+    path: 'people',
+    children: [
+      ...peopleRoutes
     ]
   },
   {
