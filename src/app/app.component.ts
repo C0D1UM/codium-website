@@ -14,7 +14,9 @@ export class AppComponent implements OnInit {
       $(window).scrollTop(0);
     });
     $(document).ready(() => {
-      AOS.init();
+      AOS.init({
+        once: true
+      });
     });
   }
 }
