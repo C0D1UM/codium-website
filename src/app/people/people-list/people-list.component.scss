@@ -26,18 +26,16 @@
     .overlay-text {
       margin: auto;
       width: 100%;
-      top: 65%;
+      top: 55%;
       position: absolute;
       opacity: 1;
       transition: all 500ms ease-in-out;
       .name {
         color: #fff;
-        margin-bottom: 30px;
-        letter-spacing: 1px;
         margin: 0;
+        letter-spacing: 1px;
         margin-bottom: 15px;
-        font-size: 24px;
-        // font-weight: 300;
+        font-size: 22px;
         text-transform: uppercase;
       }
       .position {
@@ -69,7 +67,7 @@
       opacity: 1;
     }
     .overlay {
-      transform: translate(50%)
+      //transform: translate(50%)
     }
   }
 }
