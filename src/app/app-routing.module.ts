@@ -25,7 +25,7 @@ const routes: Routes = [
     ]
   },
   {
-    path: 'career',
+    path: 'careers',
     component: CareerComponent
   },
   {
