@@ -5,6 +5,7 @@ import { HomepageComponent } from './homepage/homepage.component';
 import { portfolioRoutes } from './portfolio/portfolio-routing.module';
 import { ContactComponent } from './contact/contact.component';
 import { peopleRoutes } from './people/people-routing.module';
+import { CareerComponent } from './career/career.component';
 
 const routes: Routes = [
   {
@@ -22,6 +23,10 @@ const routes: Routes = [
     children: [
       ...peopleRoutes
     ]
+  },
+  {
+    path: 'career',
+    component: CareerComponent
   },
   {
     path: 'contact',

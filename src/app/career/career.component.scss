@@ -1,0 +1,293 @@
+@media (max-width: 991px) {
+  .img-fluid {
+    margin-top: 20px
+  }
+}
+
+.hr-left {
+  width: 30px;
+  background: #e06666;
+  height: 3px;
+  margin: 10px 0;
+}
+
+.m-t-20 {
+  margin-top: 20px;
+}
+
+hr {
+  width: 50px;
+  background: #e06666;
+  height: 2px;
+}
+
+.wrapper-700 {
+  max-width: 700px;
+  margin: auto;
+}
+
+li {
+  line-height: 30px;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+
+.btn-frame {
+  padding: 10px 50px;
+  background: transparent;
+  border: 3px solid #ffffff;
+  cursor: pointer;
+  color: #ffffff;
+  border-radius: 0;
+}
+
+.button {
+  min-width: 150px;
+  max-width: 250px;
+  margin: 1em;
+  padding: 1em 2em;
+  border: 2px solid;
+  background: none;
+  color: inherit;
+  vertical-align: middle;
+  position: relative;
+  z-index: 1;
+  -webkit-backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  cursor: pointer;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.button>span {
+  vertical-align: middle;
+}
+
+.button--wayra {
+  overflow: hidden;
+  width: 245px;
+  -webkit-transition: border-color 0.3s, color 0.3s;
+  transition: border-color 0.3s, color 0.3s;
+  -webkit-transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+  transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+}
+
+.button--wayra::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 150%;
+  height: 100%;
+  background: #ffffff;
+  z-index: -1;
+  -webkit-transform: rotate3d(0, 0, 1, -45deg) translate3d(0, -3em, 0);
+  transform: rotate3d(0, 0, 1, -45deg) translate3d(0, -3em, 0);
+  -webkit-transform-origin: 0% 100%;
+  transform-origin: 0% 100%;
+  -webkit-transition: -webkit-transform 0.3s, opacity 0.3s, background-color 0.3s;
+  transition: transform 0.3s, opacity 0.3s, background-color 0.3s;
+}
+
+.button--wayra:hover {
+  color: #153343;
+  border-color: #ffffff;
+}
+
+.button--wayra.button--inverted:hover {
+  color: #3f51b5;
+  border-color: #fff;
+}
+
+.button--wayra:hover::before {
+  opacity: 1;
+  background-color: #ffffff;
+  -webkit-transform: rotate3d(0, 0, 1, 0deg);
+  transform: rotate3d(0, 0, 1, 0deg);
+  -webkit-transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+  transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+}
+
+.button--wayra.button--inverted:hover::before {
+  background-color: #fff;
+}
+
+#mainNavbar {
+  background: #f8f8f8;
+}
+
+#headerSection {
+  padding: 170px 0;
+  // background-image: url("../../assets/images/careers/aungcode.jpg");
+  background: lighten(#153343, 5%);
+  background-size: cover;
+  background-position: right;
+  position: relative;
+  color: #ffffff;
+  // .overlay {
+  //   position: absolute;
+  //   top: 0;
+  //   width: 100%;
+  //   background: lighten(#153343, 10%);
+  //   opacity: 1;
+  //   height: 100%;
+  //   z-index: 1;
+  // }
+  h1 {
+    color: #ffffff;
+    font-size: 60px;
+  }
+  p {
+    font-size: 20px;
+    color: #ffffff;
+  }
+}
+
+#aboutCodiumSection {
+  margin-top: 80px;
+  .quote {
+    padding: 10px;
+    margin: 20px 0;
+  }
+  .ontop-image {
+    @media(min-width: 992px) {
+      position: absolute;
+      top: 190px;
+      left: 50px;
+    }
+  }
+  @media (min-width: 992px) {
+    .codium-promo-image {
+      margin-left: 30px;
+    }
+  }
+  .quote-description {
+    text-align: justify;
+  }
+  .fa-quote-left,
+  .fa-quote-right {
+    color: #2aaece;
+  }
+  @media (max-width: 992px) {
+    .fa {
+      display: none;
+    }
+  }
+}
+
+#benefitSection {
+  padding-top: 60px;
+  margin-top: 50px;
+  .benefit-detail {
+    margin-top: 50px;
+    margin-bottom: 80px;
+    background: #f8f8f8;
+  }
+  .benefit-description {
+    padding: 30px 30px 0 30px !important;
+  }
+  .col-md-6 {
+    padding: 0;
+  }
+  .ontop-image-right {
+    margin: -100px 100px;
+  }
+}
+
+#ourTechnologySection {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  @media (min-width: 992px) {
+    padding: 50px;
+  }
+  background: #f8f8f8;
+}
+
+#funSection {
+  margin-top: 100px;
+  .col-md-3 {
+    padding: 0;
+  }
+  .ontop-image {
+    @media (min-width: 992px) {
+      margin: 30px -30px;
+    }
+  }
+}
+
+#cultureSection {
+  margin-top: 40px;
+  @media (min-width: 992px) {
+    margin-top: 90px;
+  }
+  padding: 30px 0 0 0;
+  background: #f8f8f8;
+  .culture {
+    max-width: 700px;
+    margin: auto;
+  }
+  .culture-image {
+    margin-top: 30px;
+  }
+}
+
+#jobDescriptionSection {
+  padding: 30px 0 30px 0;
+  .job {
+    margin: 30px 0;
+    border: 3px solid #333333;
+    text-align: center;
+    padding: 10px;
+  }
+  .container {
+    padding-top: 30px;
+  }
+}
+
+#humorSection {
+  padding-top: 80px;
+  background: #f8f8f8;
+  padding-bottom: 50px;
+  .humor-image {
+    margin-top: 50px;
+  }
+}
+
+#macAndBoardGameSection {
+  .col-md-6 {
+    padding: 0;
+  }
+  #macContainer,
+  #boardGameContainer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    @media (min-width: 992px) {
+      padding: 80px;
+    }
+  }
+  #macContainer {
+    background-image: url("../../assets/images/careers/codebg.png");
+    background-size: cover;
+    background-attachment: fixed;
+    color: #ffffff;
+    h4 {
+      color: #ffffff;
+    }
+    li {
+      opacity: 0.7;
+    }
+  }
+}

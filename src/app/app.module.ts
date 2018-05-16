@@ -11,6 +11,7 @@ import { PortfolioModule } from './portfolio/portfolio.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ContactComponent } from './contact/contact.component';
 import { PeopleModule } from './people/people.module';
+import { CareerComponent } from './career/career.component';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import { PeopleModule } from './people/people.module';
     AppComponent,
     NavbarComponent,
     HomepageComponent,
-    ContactComponent
+    ContactComponent,
+    CareerComponent
   ],
   imports: [
     BrowserModule,
