@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import * as $ from 'jquery';
 
 @Component({
   selector: 'app-career',
@@ -7,9 +8,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CareerComponent implements OnInit {
 
-  constructor() { }
+  constructor() {
+  }
 
   ngOnInit() {
+  }
+
+  scrollToJob() {
+    $('html, body').animate({
+      scrollTop: $('#jobDescriptionSection').offset().top
+    }, 500);
   }
 
 }

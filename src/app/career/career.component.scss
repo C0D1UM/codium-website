@@ -131,21 +131,12 @@ h5 {
 
 #headerSection {
   padding: 170px 0;
-  // background-image: url("../../assets/images/careers/aungcode.jpg");
-  background: lighten(#153343, 5%);
+   background-image: url("../../assets/images/careers/aungcode_bg.png");
+  //background: lighten(#153343, 5%);
   background-size: cover;
   background-position: right;
   position: relative;
   color: #ffffff;
-  // .overlay {
-  //   position: absolute;
-  //   top: 0;
-  //   width: 100%;
-  //   background: lighten(#153343, 10%);
-  //   opacity: 1;
-  //   height: 100%;
-  //   z-index: 1;
-  // }
   h1 {
     color: #ffffff;
     font-size: 60px;
