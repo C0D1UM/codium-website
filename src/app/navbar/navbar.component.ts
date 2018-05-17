@@ -28,7 +28,7 @@ export class NavbarComponent implements OnInit {
     if (this.inverseNavbarColor) {
       $(window).scroll(function () {
         const scroll = $(window).scrollTop();
-        if (scroll > 200) {
+        if (scroll > 100) {
           $('.navbar').css('background', 'rgba(21, 39, 61, 0.9)');
           $('nav').css('padding-top', '10px');
           $('#logoWhite').css('display', 'block');
@@ -46,7 +46,7 @@ export class NavbarComponent implements OnInit {
       $('.nav-link').css('color', '#ffffff');
       $(window).scroll(function () {
         const scroll = $(window).scrollTop();
-        if (scroll > 200) {
+        if (scroll > 100) {
           $('.navbar').css('background', 'rgba(21, 39, 61, 0.9)');
           $('nav').css('padding-top', '10px');
           $('#logoWhite').css('display', 'block');
